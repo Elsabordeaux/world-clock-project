@@ -76,7 +76,8 @@ function updateSearchedCityData(event) {
             <div class="date">${cityDate.format(" MMMM Do YYYY")}</div>
           </div>
     <div class="time">${cityDate.format("h:mm:ss [<small>]A[</small>]")}</div>
-        </div>`;
+        </div>
+        <a href="/">Return to all cities</a>`;
 }
 
 let selectCity = document.querySelector("#select");
